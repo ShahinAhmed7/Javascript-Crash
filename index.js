@@ -31,3 +31,22 @@ fruit.pop();
 console.log(fruit);
 
 //Array End
+
+
+
+// Object start
+
+const person = {
+    firstName: 'Shahin',
+    lastName: 'Ahmed',
+    age: 30,
+    hobbies: ['Music', 'Travel'], //thia is array
+    address: { //object inside object
+        street: 'dhaka bangladesh',
+        district: 'Faridpur',
+    }
+}
+
+console.log(person.address.district, person.age);
+
+// Object end
