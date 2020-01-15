@@ -82,4 +82,15 @@ for (let forLoopVar = 0; forLoopVar <= 10; forLoopVar++) {
     forLoopVar++;
 }
 
-// For loop endn
+// For loop end
+
+
+
+// while loop start
+let whileVar = 0;
+while (whileVar <= 10) {
+    console.log('While loop number:' + whileVar);
+    whileVar++;
+}
+
+// while loop stendart
