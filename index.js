@@ -50,3 +50,36 @@ const person = {
 console.log(person.address.district, person.age);
 
 // Object end
+
+
+// Array with object start
+const todos = [{
+        id: 1,
+        text: 'Metting with boss',
+        isCompleted: true,
+    },
+
+    {
+        id: 2,
+        text: 'Its coffee time',
+    },
+    {
+        id: 3,
+        text: 'Its lunch time',
+    }
+]
+
+console.log(todos[0].isCompleted);
+
+
+// Array with object end
+
+
+
+// For loop start
+for (let forLoopVar = 0; forLoopVar <= 10; forLoopVar++) {
+    console.log('For loop number:' + forLoopVar);
+    forLoopVar++;
+}
+
+// For loop endn
