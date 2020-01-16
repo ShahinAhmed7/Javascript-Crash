@@ -100,3 +100,36 @@ val = String(new Date()); //for string convert number to string. if you remove s
 console.log(val);
 
 // Date output end
+
+
+
+// Template string html start
+let name = 'Shahin';
+let lName = 'Ahmed';
+let html; // Its empty variable for output html
+
+html = `
+    <ul>
+        <li>My name is: ${name}</li>
+        <li>My last name is: ${lName}</li>
+    </ul>
+`;
+//document.body.innerHTML = html;
+
+// Template string html start
+
+
+// switch start
+let color = 'green';
+
+switch (color) {
+    case 'red':
+        console.log('Color is red');
+        break;
+    case 'yellow':
+        console.log('Color is yellow');
+        break;
+    default:
+        console.log('Color not found');
+}
+// switch end
