@@ -92,5 +92,11 @@ while (whileVar <= 10) {
     console.log('While loop number:' + whileVar);
     whileVar++;
 }
-
 // while loop stendart
+
+// Date output start
+let val;
+val = String(new Date()); //for string convert number to string. if you remove string date showing only number
+console.log(val);
+
+// Date output end
