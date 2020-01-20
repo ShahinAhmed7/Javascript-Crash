@@ -92,7 +92,13 @@ while (whileVar <= 10) {
     console.log('While loop number:' + whileVar);
     whileVar++;
 }
-// while loop stendart
+// while loop end
+
+// For loop start
+for (let forVar = 0; forVar <= 10; forVar++) {
+    console.log('For Loop Number ' + forVar);
+}
+// For loop end
 
 // Date output start
 let val;
