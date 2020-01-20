@@ -132,4 +132,17 @@ switch (color) {
     default:
         console.log('Color not found');
 }
+
+let day = 'Monday';
+
+switch (day) {
+    case 'Sunday':
+        console.log('This is sunday');
+        break;
+    case 'Monday':
+        console.log('This is monday');
+        break;
+    default:
+        console.log('None of them');
+}
 // switch end
