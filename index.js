@@ -152,3 +152,23 @@ switch (day) {
         console.log('None of them');
 }
 // switch end
+
+// Array start
+let helloArray = [
+    'Shahin',
+    'SObir',
+    50,
+]
+
+for (let forArray = 0; forArray < helloArray.length; forArray++) {
+    console.log(helloArray[forArray]);
+}
+// Array end
+
+// Function start
+function myNum(a, b) {
+    let fNum = a + b;
+    return fNum;
+};
+console.log(myNum(20, 70));
+// Function end
